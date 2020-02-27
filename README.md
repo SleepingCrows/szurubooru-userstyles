@@ -11,3 +11,5 @@ Remember to edit the first line with your booru's IP address or domain.
 ...
 }
 ```
+
+I provide two variants, Vanilla & Mosaic. Vanilla keeps to the default grid, and Mosaic allows variable width.
