@@ -1,0 +1,159 @@
+@-moz-document domain("szuru.example.com") {
+
+:root {
+/* BACKGROUND COLORS */
+    --bg-primary:#2e3340; /*Default: #2e3340 */
+    --bg-secondary: #3b4252; /*Default: #3b4252 */
+    --bg-tertiary: #434c6e; /*Default: #434c6e */
+/* BUTTON / LINK COLORS */
+    --focus: #8fbcbb;
+    --active: #8fbcbb;
+    --link: #8fbcbb;
+/* FONT COLOR */
+    --font: #d8dee9;
+}
+
+/* Background Elements / Panels */
+
+body {
+    background: var(--bg-primary);
+    color: var(--font);
+}
+
+#content-holder > .content-wrapper:not(.transparent){
+    background: var(--bg-secondary);
+}
+
+/* Branding */
+nav#top-navigation ul #mobile-navigation-toggle {
+  font-family: inherit;
+  color: var(--font);
+}
+
+/* Navigation */
+
+a {
+    color: var(--link);
+}
+
+nav#top-navigation ul li a {
+    color: var(--link);
+}
+
+nav.buttons ul li.active a {
+    color: var(--link);
+}
+
+nav.buttons ul li:hover:not(.active) a {
+    color: var(--link);
+    background: rgba(0,0,0,.15);
+    
+}
+
+nav#top-navigation {
+    background: var(--bg-secondary);
+    color: var(--font);
+}
+
+nav.buttons ul li:not(.active) a{
+    color: var(--font);
+}
+
+input[type="email"], input[type="number"], input[type="password"], input[type="text"], select, textarea {
+    background-color: var(--bg-tertiary);
+}
+
+input[type=email]:focus, input[type=number]:focus, input[type=password]:focus, input[type=text]:focus, select:focus, textarea:focus {
+    border-color: var(--focus);
+    color: var(--font);
+}
+
+input[type="email"], input[type="number"], input[type="password"], input[type="text"], select, textarea {
+  border-color: var(--bg-secondary);
+  color: var(--font);
+}
+
+/* Posts */
+
+.post-list ul li:hover {
+    background: var(--focus);
+}
+
+.post-list ul li a:active .thumbnail, .post-list ul li a:focus .thumbnail, .post-list ul li:hover a .thumbnail{
+    outline-color: var(--focus) !important;
+}
+
+
+
+/* Search */
+button, input[type="button"], input[type="submit"] {
+    background: var(--bg-secondary);
+    border-color: var(--focus);
+    color: var(--font);
+}
+
+/* Comment Box */
+
+.comment-container .comment {
+  border: none;
+}
+
+.comment-container .comment header {
+  background: var(--bg-secondary);
+  border: none;
+}
+
+.comment-container .comment header nav.edit ul li.active {
+  background: var(--bg-tertiary);
+  border-color: var(--active);
+}
+
+/* Tags */
+
+ .tag-creator, .tag-series, .tag-species, .tag-character, .tag-year {
+    font-weight:bold;    
+}
+
+.tag-list table th {
+    background: var(--bg-secondary);
+}
+
+.tag-list table tr:hover td {
+    background: var(--bg-tertiary);
+}
+
+/* Users List */
+.user-list ul li {
+    background: var(--bg-secondary);
+  
+}
+
+/* Pagination */
+
+.pager .page .page-header::before {
+    background: var(--bg-secondary);
+}
+
+.pager .page .page-header span {
+    background: var(--bg-secondary);
+}
+
+/* Uploader */
+.file-dropper-holder .file-dropper {
+    background: var(--bg-secondary);
+    border-color: var(--focus);
+}
+
+/* System Messages */
+.messages .message.info {
+    background: var(--bg-secondary);
+    border-color: var(--focus);
+}
+
+.messages .message.error {
+    background: var(--bg-secondary);
+    border-color: var(--focus);
+}
+
+
+}
