@@ -1,0 +1,153 @@
+
+/* Background Elements / Panels */
+
+body {
+    background: #2e3340;
+    color: #d8dee9;
+}
+
+#content-holder > .content-wrapper:not(.transparent){
+    background: #3b4252;
+}
+
+/* Branding */
+nav#top-navigation ul #mobile-navigation-toggle {
+  font-family: inherit;
+  color: #d8dee9;
+}
+
+/* Navigation */
+
+a {
+    color: #8fbcbb;
+}
+
+nav#top-navigation ul li a {
+    color: #8fbcbb;
+}
+
+nav.buttons ul li.active a {
+    color: #8fbcbb;
+}
+
+nav.buttons ul li:hover:not(.active) a {
+    color: #8fbcbb;
+    background: rgba(0,0,0,.15);
+    
+}
+
+nav#top-navigation {
+    background: #3b4252;
+    color: #d8dee9;
+}
+
+nav.buttons ul li:not(.active) a{
+    color: #d8dee9;
+}
+
+input[type="email"], input[type="number"], input[type="password"], input[type="text"], select, textarea {
+    background-color: #434c6e;
+}
+
+input[type=email]:focus, input[type=number]:focus, input[type=password]:focus, input[type=text]:focus, select:focus, textarea:focus {
+    border-color: #8fbcbb;
+    color: #d8dee9;
+}
+
+input[type="email"], input[type="number"], input[type="password"], input[type="text"], select, textarea {
+  border-color: #3b4252;
+  color: #d8dee9;
+}
+
+/* Posts */
+/* MOSAIC STYLING*/
+.post-list ul li:not(.flexbox-dummy) {
+    height: 12em;
+}
+
+.post-list ul li {
+    width: auto ;
+    min-width: 8em;
+}
+/* END OF MOSAIC STYLING*/
+
+.post-list ul li:hover {
+    background: #8fbcbb;
+}
+
+.post-list ul li a:active .thumbnail, .post-list ul li a:focus .thumbnail, .post-list ul li:hover a .thumbnail{
+    outline-color: #8fbcbb !important;
+}
+
+
+
+/* Search */
+button, input[type="button"], input[type="submit"] {
+    background: #3b4252;
+    border-color: #8fbcbb;
+    color: #d8dee9;
+}
+
+/* Comment Box */
+
+.comment-container .comment {
+  border: none;
+}
+
+.comment-container .comment header {
+  background: #3b4252;
+  border: none;
+}
+
+.comment-container .comment header nav.edit ul li.active {
+  background: #434c6e;
+  border-color: #8fbcbb;
+}
+
+/* Tags */
+
+ .tag-creator, .tag-series, .tag-species, .tag-character, .tag-year {
+    font-weight:bold;    
+}
+
+.tag-list table th {
+    background: #3b4252;
+}
+
+.tag-list table tr:hover td {
+    background: #434c6e;
+}
+
+/* Users List */
+.user-list ul li {
+    background: #3b4252;
+  
+}
+
+/* Pagination */
+
+.pager .page .page-header::before {
+    background: #3b4252;
+}
+
+.pager .page .page-header span {
+    background: #3b4252;
+}
+
+/* Uploader */
+.file-dropper-holder .file-dropper {
+    background: #3b4252;
+    border-color: #8fbcbb;
+}
+
+/* System Messages */
+.messages .message.info {
+    background: #3b4252;
+    border-color: #8fbcbb;
+}
+
+.messages .message.error {
+    background: #3b4252;
+    border-color: #8fbcbb;
+}
+
