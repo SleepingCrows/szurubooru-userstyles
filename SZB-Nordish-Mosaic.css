@@ -2,9 +2,9 @@
 
 :root {
 /* BACKGROUND COLORS */
-    --bg-primary:#2e3340; /*Default: #2e3340 */
-    --bg-secondary: #3b4252; /*Default: #3b4252 */
-    --bg-tertiary: #434c6e; /*Default: #434c6e */
+    --bg-primary:#2e3340;
+    --bg-secondary: #3b4252;
+    --bg-tertiary: #434c6e;
 /* BUTTON / LINK COLORS */
     --focus: #8fbcbb;
     --active: #8fbcbb;
