@@ -47,7 +47,7 @@ nav.buttons ul li.active a {
 nav.buttons ul li:hover:not(.active) a {
     color: var(--link);
     background: rgba(0,0,0,.15);
-    
+
 }
 
 nav#top-navigation {
@@ -111,7 +111,7 @@ button, input[type="button"], input[type="submit"] {
 /* Tags */
 
  .tag-creator, .tag-series, .tag-species, .tag-character, .tag-year {
-    font-weight:bold;    
+    font-weight:bold;
 }
 
 .tag-list table th {
@@ -125,7 +125,7 @@ button, input[type="button"], input[type="submit"] {
 /* Users List */
 .user-list ul li {
     background: var(--bg-secondary);
-  
+
 }
 
 /* Pagination */
@@ -155,5 +155,9 @@ button, input[type="button"], input[type="submit"] {
     border-color: var(--focus);
 }
 
+.messages .message.success {
+    background: var(--bg-secondary);
+    border-color: var(--focus);
+}
 
 }
