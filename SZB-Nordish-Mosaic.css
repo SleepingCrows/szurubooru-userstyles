@@ -169,4 +169,11 @@ button, input[type="button"], input[type="submit"] {
     border-color: var(--focus);
 }
 
+.snapshot-list ul li div.operation-created, .snapshot-list ul li div.operation-modified {
+    background: var(--bg-secondary);
+}
+
+.snapshot-list ul li div.operation-created + .details, .snapshot-list ul li div.operation-modified + .details {
+    background: var(--bg-tertiary);    
+    
 }
